@@ -1,5 +1,13 @@
 # COG
-Version simplifiée et plus accessible du Code Officiel Géographique pour les communes. Vous trouverez ici une version du COG pour les communes, publiée dans sa plus simple expression : le libellé complet de chaque commune et son code INSEE, sous la forme de fichiers simples d'usages (le format CSV dans un premier temps).
+Version simplifiée et plus accessible du Code Officiel Géographique pour les communes.
+
+Vous trouverez ici une version du COG pour les communes, publiée dans sa plus simple expression : le libellé complet de chaque commune et son code INSEE, sous la forme de fichiers simples d'usages (le format CSV dans un premier temps).
+
+## Téléchargement
+* COG simplifié 2017 : [COG_communes_INSEE.2017.csv](https://cdn.rawgit.com/CharlesNepote/COG/62e930e3/COG_communes_INSEE.2017.csv)
+
+## Licence
+Ces données Open Data sont sous Licence Ouverte : https://www.etalab.gouv.fr/licence-ouverte-open-licence
 
 ## Motivation
 Quel est le référentiel officiel des communes françaises ? Le COG bien sûr !
