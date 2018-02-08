@@ -1,0 +1,17 @@
+# YML file with inspired from https://github.com/Stephen-Gates/data-package-examples/blob/master/goodtables.yml
+
+# .goodtables.yml should conform to the format at https://github.com/frictionlessdata/goodtables.io/blob/master/goodtablesio/schemas/job-conf.yml
+
+# validate all csv files without reference to the datapackages
+#
+files: '*.csv'
+
+# validate a mixture of csv files optionally with a tableschema
+#
+# files:
+#  - source: australian-open-data-portals/australian-open-data-portals.csv
+#    schema: australian-open-data-portals/tableschema.json
+#  - source: pathway/data/all_organisations_by_country.csv
+
+#files:
+#  - source: 'xxx.csv'
