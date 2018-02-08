@@ -1,5 +1,5 @@
 # COG
-Version simplifiée et plus accessible du Code Officiel Géographique pour les communes.
+Version simplifiée et plus accessible du Code Officiel Géographique pour les communes (source : INSEE).
 
 Vous trouverez ici une version du COG pour les communes, publiée dans sa plus simple expression : le libellé complet de chaque commune et son code INSEE, sous la forme de fichiers simples d'usages (le format CSV dans un premier temps).
 
