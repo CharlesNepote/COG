@@ -3,6 +3,14 @@ Version simplifiée et plus accessible du Code Officiel Géographique pour les c
 
 Vous trouverez ici une version du COG pour les communes, publiée dans sa plus simple expression : le libellé complet de chaque commune et son code INSEE, sous la forme de fichiers simples d'usages (le format CSV dans un premier temps).
 
+Voici les 4 premières lignes du fichier à titre d'exemple :
+
+|DEPCOM|ARTMIN_NCCENR
+| ---- | ----
+|01001|L'Abergement-Clémenciat
+|01002|L'Abergement-de-Varey
+|01004|Ambérieu-en-Bugey
+
 ## Téléchargement
 * COG simplifié 2017 : [COG_communes_INSEE.2017.csv](https://cdn.rawgit.com/CharlesNepote/COG/62e930e3/COG_communes_INSEE.2017.csv)
 
