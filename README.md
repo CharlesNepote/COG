@@ -52,3 +52,6 @@ perl -n -a -F, -e 'print "$F[0]$F[1],$F[2],$F[3]"' c3.csv > c4.csv # Fusion des 
 perl -p -e "s/ARTMIN,NCCENR/ARTMIN_NCCENR/; s/,\(/,/g; s/\),/ /g; s/\' /\'/g; s/,,/,/g" c4.csv > COG_communes_INSEE.csv # Fusion des colonnes ARTMIN et NCCERN
 rm comsimp2017_out.csv c3.csv c4.csv # supression des fichiers temporaires
 ```
+
+## Contrôle qualité
+Ce badge est le résultat d'un contrôle qualité indiquant si le fichier CSV est bien formé : [![goodtables.io](https://goodtables.io/badge/github/CharlesNepote/COG.svg)](https://goodtables.io/github/CharlesNepote/COG)
