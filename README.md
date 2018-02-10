@@ -47,10 +47,10 @@ Nous documentons ci-dessous les 6 commandes représentant l'ensemble du process.
 ```bash
 wget https://www.insee.fr/fr/statistiques/fichier/2666684/comsimp2017-txt.zip ; unzip comsimp2017-txt.zip
 csvclean -t -e CP1252 comsimp2017.txt # conversion en CSV standard, UTF-8
-csvcut -c DEP,COM,ARTMIN,NCCENR  > c3.csv # sélection des colonnes suffisantes pour obtenir le code commune et le nom de commune
+csvcut -c DEP,COM,ARTMIN,NCCENR comsimp2017_out.csv > c3.csv # sélection des colonnes suffisantes pour obtenir le code commune et le nom de commune
 perl -n -a -F, -e 'print "$F[0]$F[1],$F[2],$F[3]"' c3.csv > c4.csv # Fusion des colonnes DEP et COM pour obtenir le code INSEE complet
 perl -p -e "s/ARTMIN,NCCENR/ARTMIN_NCCENR/; s/,\(/,/g; s/\),/ /g; s/\' /\'/g; s/,,/,/g" c4.csv > COG_communes_INSEE.csv # Fusion des colonnes ARTMIN et NCCERN
-rm comsimp2017_out.csv c3.csv c4.csv # supression des fichiers temporaires
+rm comsimp2017_out.csv c3.csv c4.csv # suppression des fichiers temporaires
 ```
 
 ## Contrôle qualité
