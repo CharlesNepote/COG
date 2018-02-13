@@ -29,17 +29,17 @@ Hélas, la version produire par l'INSEE pose certains problèmes d'usage :
 J’ajoute, mais c’est presque secondaire, que le jeu est en ISO-8859-1, zipé, avec l’extension .txt et dans un format ésotérique : le standard CSV pour de la donnée de référence, c’est pas un minimum ?
 
 ## Source des données
-Les données proviennent de la version officielle et estampillé du Code Officiel Géographique, produites par l'INSEE et éditée par la plateforme data.gouv.fr.
+Les données proviennent de la version officielle et estampillée du Code Officiel Géographique, produite par l'INSEE et éditée par la plateforme data.gouv.fr.
 Ces données sont diffusées ici : https://www.data.gouv.fr/fr/datasets/code-officiel-geographique-cog/
 
 ## Process de production
 Les données de l'INSEE ne font l'objet d'aucune modification de fond. C'est seulement leur mise en forme qui est ici retravaillée.
 Les données sont ainsi traitées :
 * téléchargement depuis le site de l'INSEE et décompression
-* supression de toutes colonnes hors DEP (code département), COM (code commune), ARTMIN et NCCENR
+* suppression de toutes colonnes hors DEP (code département), COM (code commune), ARTMIN et NCCENR
 * fusion des colonnes DEP et COM pour obtenir le code commune complet
 * fusion des colonnes ARTMIN "(L')" et NCCERN "Abergement" :
-  * en supprimants les parenthèses entrantes,
+  * en supprimant les parenthèses ouvrantes,
   * en remplaçant les parenthèses fermantes par un espace
   * en supprimant l'espace après une apostrophe
 
