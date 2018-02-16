@@ -55,3 +55,7 @@ rm comsimp2017_out.csv c3.csv c4.csv # suppression des fichiers temporaires
 
 ## Contrôle qualité
 Ce badge est le résultat d'un contrôle qualité indiquant si le fichier CSV est bien formé : [![goodtables.io](https://goodtables.io/badge/github/CharlesNepote/COG.svg)](https://goodtables.io/github/CharlesNepote/COG)
+
+## Ailleurs
+D'autres projets qui s'intéressent aux usages du COG :
+* COGugaison, package R utile à la gestion des codes officiels géographiques (COG) dans les tables de données géographiques : https://github.com/antuki/COGugaison
