@@ -58,7 +58,7 @@ Ce badge est le résultat d'un contrôle qualité indiquant si le fichier CSV es
 
 ## TODO
 * Ajouter des guillemets : csvformat -U 1 c5.csv > COG_communes_INSEE.csv
-* Produire un fichier plus évolué avec d'autres données : département, ...
+* Produire un autre fichier, plus évolué, avec d'autres données : DEP (département), ...
 * Revoir les noms des champs : COMMUNE_NOM et INSEE_CODE ?
 
 ## Ailleurs
