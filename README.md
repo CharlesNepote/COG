@@ -56,6 +56,11 @@ rm comsimp2017_out.csv c3.csv c4.csv # suppression des fichiers temporaires
 ## Contrôle qualité
 Ce badge est le résultat d'un contrôle qualité indiquant si le fichier CSV est bien formé : [![goodtables.io](https://goodtables.io/badge/github/CharlesNepote/COG.svg)](https://goodtables.io/github/CharlesNepote/COG)
 
+## TODO
+* Ajouter des guillemets : csvformat -U 1 c5.csv > COG_communes_INSEE.csv
+* Produire un fichier plus évolué avec d'autres données : département, ...
+* Revoir les noms des champs : COMMUNE_NOM et INSEE_CODE ?
+
 ## Ailleurs
 D'autres projets qui s'intéressent aux usages du COG :
 * COGugaison, package R utile à la gestion des codes officiels géographiques (COG) dans les tables de données géographiques : https://github.com/antuki/COGugaison
