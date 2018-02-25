@@ -60,6 +60,8 @@ Ce badge est le résultat d'un contrôle qualité indiquant si le fichier CSV es
 * Ajouter des guillemets : csvformat -U 1 c5.csv > COG_communes_INSEE.csv
 * Produire un autre fichier, plus évolué, avec d'autres données : DEP (département), ...
 * Revoir les noms des champs : COMMUNE_NOM et INSEE_CODE ?
+* Publier automatiquement le jeu sur data.gouv.fr ? Voir : http://www.data.gouv.fr/fr/apidoc/ : PUT /datasets/{dataset}/
+* Revoir le nom du jeu ?
 
 ## Ailleurs
 D'autres projets qui s'intéressent aux usages du COG :
